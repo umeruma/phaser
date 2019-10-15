@@ -39,7 +39,7 @@ module.exports = {
                     compress: true,
                     ie8: false,
                     ecma: 5,
-                    output: {comments: false},
+                    output: { comments: false },
                     warnings: false
                 },
                 warningsFilter: () => false
@@ -54,7 +54,7 @@ module.exports = {
             "typeof EXPERIMENTAL": JSON.stringify(false),
             "typeof PLUGIN_CAMERA3D": JSON.stringify(false),
             "typeof PLUGIN_FBINSTANT": JSON.stringify(false),
-            "typeof FEATURE_SOUND": JSON.stringify(true)
+            "typeof FEATURE_SOUND": JSON.stringify(false)
         }),
 
         new CleanWebpackPlugin([targetFolder], {

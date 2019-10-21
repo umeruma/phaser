@@ -31,7 +31,7 @@ var Phaser = {
     Game: require('./core/Game'),
     GameObjects: require('./gameobjects'),
     Geom: require('./geom'),
-    Input: require('./input'),
+    // Input: require('./input'),
     Loader: require('./loader'),
     Math: require('./math'),
     Physics: {
